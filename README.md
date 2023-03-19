@@ -1,2 +1,2 @@
 # EIAAPIv2Example
-This server as an example on how to connect the EIA's APIv2
+This serves as an example on how to connect/pull data from the EIA's new APIv2
