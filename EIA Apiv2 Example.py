@@ -19,5 +19,5 @@ def eiav2_api(series):
 
     data_df.to_csv(json_data['response']['data'][0]['series-description'] + ' Weekly' + '.csv', encoding = 'utf-8', index=False)
 
-#This pulls the data for U.S. Ending Stocks of Crude Oil (Thousand Barrels) Weekly
+#This pulls the data for U.S. Ending Stocks of Crude Oil (Thousand Barrels) Weekly and saves it to a csv file
 eiav2_api('WCRSTUS1')
